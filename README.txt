@@ -1,0 +1,5 @@
+- Make sure these pakages are installed, to install the pakages using (pip install "pakage name"),Packages used in these files are numpy,pandas,matplotlib,seaborn,sklearn and xgboost.
+- Run the 'Fetch.py' file to Fetch the data of prices for the crop Potato for the years 2011-2022 (from 1st Jan’2011 to 31st Mar’2022) for district “Agra” of Uttar Pradesh from the historical data for prices are reported daily on Agmarknet.
+  (running the above file Creates/updates the 'Data.csv' file data which will be sorted datewise and done EDA later in the file 'EDA_Agrilinks.ipynb')
+- Then run the 'EDA_Agrilinks.ipynb' cells to go throught the eda of the obtained data, the loss function and score of the models.
+  (Note: Make sure to run the file 'Fetch.py' before running the file 'EDA_Agrilinks.ipynb' since, the file 'EDA_Agrilinks.ipynb' uses the file 'Data.csv' which will be updated or created by the file 'Fetch.py')
